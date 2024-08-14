@@ -1,0 +1,47 @@
+.explore-options{
+    padding: 5rem 0;
+    width: 110rem;
+    margin: auto;
+}
+
+.explore-options .explore-heading{
+    margin: 0px 0px 2rem;
+  color: rgb(54, 54, 54);
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 500;
+}
+
+.accordions {
+    display: flex;
+    flex-direction: column;
+  }
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    padding: 2rem 2.4rem;
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+  }
+
+.accordion-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .accordion-container i {
+    font-size: 15px;
+  }
+
+  .accordion-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(28, 28, 28);
+  }
